@@ -337,13 +337,13 @@ body {
 @media (max-width: 600px) {
     .accordion {
         width: clamp(300px, 30vw, 300px);
-        top: 30vh;
+        top: 22vh;
         margin-top: 0.5rem;
     }
     .circleLayout {
         height: 140px;
         width: 140px;
-        top: 12vh;
+        top: 5vh;
         
     }
 }
