@@ -263,8 +263,9 @@ body {
 
 .accordion {
     width: clamp(280px, 40vw, 700px);
-    margin: 2rem auto 0 auto;
+    margin: 1rem auto 0 auto;
     color: white;
+    top: 40vh;
     background-color: white;
     position: relative;
     border-radius: 0.5rem;
