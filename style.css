@@ -251,7 +251,7 @@ body {
     height: clamp(100px, 20vw, 30rem);
     width: clamp(100px, 20vw, 30rem);
     position: absolute;
-    top: 2vh;
+    top: 1vh;
     left: 50%;
     transform: translateX(-50%);
     border-block:  double white;
@@ -275,10 +275,10 @@ body {
 
 
 .accordion {
-    width: clamp(280px, 40vw, 700px);
+    width: clamp(240px, 35vw, 500px);
     margin: 1rem auto 0 auto;
     color: white;
-    top: 40vh;
+    top: 38vh;
     background-color: white;
     position: relative;
     border-radius: 0.5rem;
@@ -327,7 +327,7 @@ body {
     line-height: 1.5rem;
     border-top: 2px solid;
     border-image: linear-gradient(to right, rgba(171, 186, 206, 1), white) 1;
-    font-size: 17px;
+    font-size: 15px;
     display: flex;
     flex-direction: column;
     gap: 10px;
