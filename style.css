@@ -12,7 +12,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     overflow: hidden;
-    background-color: red;
+    
 }
 
 
@@ -27,15 +27,13 @@ body {
 
 }
 
-
-
 .name {
     font-family: Arial, Helvetica, sans-serif;
     position: absolute;
-    transform: translate(-50%, -50%);
+    transform: translate(0, -50%);
     font-size: 22px;
-    top: 2vh;
-    left: 5vw;
+    top: 5vh;
+    left: 9vw;
     font-weight: bold;
     color: white;
     text-transform: uppercase;
@@ -46,7 +44,7 @@ body {
 
 .name h1 {
     text-align: end;
-    margin: 2rem 0%;
+    margin: 0;
     font-size: clamp(16px, 4vw, 22px);
     
 }
@@ -54,13 +52,25 @@ body {
 
 .box div {
     position: absolute;
-    width: 25px;
-    height: 25px;
+    width: clamp(15px, 2vw, 25px);
+    height: clamp(15px, 2vw, 25px);
     background-color: transparent;
     border: 6px solid rgba(171, 186, 206, 1);
     border-block: double white;
     z-index: 1;
  
+}
+
+.box2 div{
+    position: absolute;
+    width: clamp(80px, 20vw, 220px);
+    height: clamp(80px, 20vw, 220px);
+    background-color: transparent;
+    border: 12px solid rgba(18, 21, 29, 1);
+    border-block: 12px double rgba(18, 21, 29, 1);
+    z-index: 1;
+    
+
 }
 
 .box div:nth-child(1) {
@@ -138,18 +148,6 @@ body {
     }
 }
 
-
-.box2 div{
-    position: absolute;
-    width: 220px;
-    height: 220px;
-    background-color: transparent;
-    border: 12px solid rgba(18, 21, 29, 1);
-    border-block: 12px double rgba(18, 21, 29, 1);
-    z-index: 1;
-    
-
-}
 
 .box2 div:nth-child(1) {
     top: 10%;
@@ -264,10 +262,8 @@ body {
 
 
 .accordion {
-    width: 40vw;
-    left: 50%;
-    transform: translateX(-50%);
-    top: 40vh;
+    width: clamp(280px, 40vw, 700px);
+    margin: 2rem auto 0 auto;
     color: white;
     background-color: white;
     position: relative;
